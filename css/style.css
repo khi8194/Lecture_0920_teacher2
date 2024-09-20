@@ -20,15 +20,19 @@ main {
   border: 1px solid red;
   margin: 100px auto;
   position: relative;
+  overflow: hidden;
 }
 main .panel {
-  width: 2000px;
-  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300%;
+  height: 100%;
   display: flex;
 }
 main .panel li {
-  width: 400px;
-  height: 200px;
+  width: 33.3333%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
