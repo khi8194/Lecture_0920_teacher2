@@ -14,7 +14,7 @@ panel.querySelectorAll("li").forEach((li) => {
 //각 버튼 클릭 이벤트 연결
 btns.forEach((btn, idx) => {
   btn.addEventListener("click", () => {
-    new Anime(panel, { left: -100 * idx + "%" }, { duration: 500 });
+    new Anime(panel, { left: -100 * idx + "%" }, { duration: 1000 });
 
     //버튼 클릭시마다 순간적으로 모든 버튼을 반복돌며 on을 제거
     btns.forEach((btn) => btn.classList.remove("on"));
