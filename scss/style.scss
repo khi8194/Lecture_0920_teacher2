@@ -6,13 +6,13 @@ main {
   border: 1px solid red;
   margin: 100px auto;
   position: relative;
-  overflow: hidden;
+  //overflow: hidden;
 
   .panel {
     //anime에서 margin은 퍼센트 모션 처리 불가하기 때문에 , absolute의 left로 배치
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 0%;
     width: 300%; //부모요소 100% * 패널갯수
     height: 100%;
     display: flex;

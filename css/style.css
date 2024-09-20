@@ -20,12 +20,11 @@ main {
   border: 1px solid red;
   margin: 100px auto;
   position: relative;
-  overflow: hidden;
 }
 main .panel {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0%;
+  left: 0%;
   width: 300%;
   height: 100%;
   display: flex;
